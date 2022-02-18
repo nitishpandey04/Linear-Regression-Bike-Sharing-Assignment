@@ -3,9 +3,13 @@
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
+* [Steps](#steps)
+* [Model Building Approach](#model-building-approach)
+* [Observations](#observations)
 * [Conclusions](#conclusions)
+* [Technologies Used](#technologies-used)
 * [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
 
 ## General Information
 A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. To make better decisions on scaling their business, the company wants to know the demand of bikes after the pandemic ends. The company has gathered a large dataset on daily bike demands across the American market based on some factors. The company wants to know:-
@@ -16,7 +20,7 @@ The model will be used to understand how exactly the demands vary with different
 
 The dataset that is being used can be found [here](https://drive.google.com/drive/folders/1rRl5ZahhC23KI-_P_NuXFm83P0vPzDp3?usp=sharing)
 
-### Steps
+## Steps
 1. Data Preparation
 2. Exploratory Data Analysis
 3. Creating dummy variables for categorical variables
@@ -25,7 +29,7 @@ The dataset that is being used can be found [here](https://drive.google.com/driv
 6. Residual Analysis
 7. Evaluation
 
-### Model Building Approach
+## Model Building Approach
 1. Train the model with all the available data using statsmodels
 2. Check the p-values and vif scores of variables
 3. Drop the variable based on the above two parameters
@@ -37,7 +41,7 @@ According to the model analysis, three most significant variables are:-
 2. yr(+)
 3. weathersit_light_rain(+)
 
-## Conclusion
+## Conclusions
 - people tend to use bikes when it is relatively hot
 - the popularity of the company is growing with time
 - when there is rain, less people tend to use bikes.
