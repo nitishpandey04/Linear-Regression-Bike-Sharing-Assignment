@@ -7,6 +7,7 @@
 * [Model Building Approach](#model-building-approach)
 * [Observations](#observations)
 * [Conclusions](#conclusions)
+* [Concepts Used](#concepts-used)
 * [Technologies Used](#technologies-used)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
@@ -46,6 +47,13 @@ According to the model analysis, three most significant variables are:-
 - the popularity of the company is growing with time
 - when there is rain, less people tend to use bikes.
 
+## Concepts Used
+- Linear Regression
+- Standardisation
+- Manual Feature Elimination based on p-values and VIF
+- Residual Analysis
+- Evaluation using R2 score and adjusted R2 score
+
 ## Technologies Used
 - python 
 - numpy
@@ -60,3 +68,4 @@ According to the model analysis, three most significant variables are:-
 
 ## Contact
 Created by [@nitishpandey04] - feel free to contact me!
+email id- nitishpandey2117@gmail.com
